@@ -4,7 +4,7 @@
 First create a project with one ethernet switch and two nodes and connect them. 
 Now log into the console for each node and configure the nodes to an IP address. A node can be configured in GNS3 using the commands:
 
-$ip addr add 10.0.0.1/24 dev eth0
+$ip addr add 10.0.0.1/24 dev eth0\n
 $ip link set eth0 up
 
 (The commands are dependent on which IP address you prefer and the ethernet link you have used to connect the switch and nodes). 
